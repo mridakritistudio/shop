@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>mridakritistudio | Handcrafted Lippan Art</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+  <h1>mridakritistudio</h1>
+  <p>Handcrafted Lippan Art | Mud and Mirror Creations</p>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#shop">Shop</a></li>
+      <li><a href="#about">About Lippan Art</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section id="home" class="hero">
+  <img src="images/lippan-placeholder.png" alt="Lippan Art">
+  <div class="hero-text">
+    <p>
+      Lippan art is a traditional mud and mirror craft that brings warmth,
+      texture, and heritage into modern spaces.
+    </p>
+    <a href="#shop" class="cta-button">Explore Artworks</a>
+  </div>
+</section>
+
+<section id="shop">
+  <h2>Available Artworks</h2>
+
+  <div class="category-filter">
+    <button class="active" onclick="filterCategory('all')">All</button>
+    <button onclick="filterCategory('small')">Small</button>
+    <button onclick="filterCategory('medium')">Medium</button>
+    <button onclick="filterCategory('large')">Large</button>
+  </div>
+
+  <div class="products">
+
+    <div class="product-card small" id="product-4inch-circle">
+      <img src="images/small/small_1.png" onclick="openModal(this.src)">
+      <div class="product-label">4 inch Circle</div>
+      <button class="order-btn" onclick="orderOnInstagram('4 inch Circle')">
+        Order via Instagram
+      </button>
+    </div>
+
+    <div class="product-card medium" id="product-12inch-circle">
+      <img src="images/medium/medium_1.png" onclick="openModal(this.src)">
+      <div class="product-label">12 inch Circle</div>
+      <button class="order-btn" onclick="orderOnInstagram('12 inch Circle')">
+        Order via Instagram
+      </button>
+    </div>
+
+    <div class="product-card medium" id="product-8x8-square">
+      <img src="images/medium/medium_2.png" onclick="openModal(this.src)">
+      <div class="product-label">8 x 8 inch Square</div>
+      <button class="order-btn" onclick="orderOnInstagram('8 x 8 inch Square')">
+        Order via Instagram
+      </button>
+    </div>
+
+    <div class="product-card large" id="product-28x46-rectangle">
+      <img src="images/large/large_1.png" onclick="openModal(this.src)">
+      <div class="product-label">28 x 46 inch Rectangle</div>
+      <button class="order-btn" onclick="orderOnInstagram('28 x 46 inch Rectangle')">
+        Order via Instagram
+      </button>
+    </div>
+
+  </div>
+</section>
+
+<section id="about">
+  <div class="about">
+    <h2>About Lippan Art</h2>
+    <p>
+      Lippan art originates from the Kutch region of Gujarat and is crafted
+      using natural mud and hand-placed mirrors.
+    </p>
+    <p>
+      Each piece is shaped slowly by hand, making every artwork unique,
+      textured, and deeply rooted in tradition.
+    </p>
+    <p>
+      These creations bring warmth, calm, and an earthy elegance into
+      contemporary living spaces.
+    </p>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact</h2>
+  <p>For orders and custom requests, connect with us on Instagram.</p>
+  <p>
+    <strong>Instagram:</strong>
+    <a href="https://www.instagram.com/mrida.kriti/" target="_blank">
+      @mrida.kriti
+    </a>
+  </p>
+</section>
+
+<footer>
+  <div>mridakritistudio | Handcrafted Lippan Art</div>
+  <div>
+    <a href="https://www.instagram.com/mrida.kriti/" target="_blank">
+      Instagram
+    </a>
+  </div>
+</footer>
+
+<div class="modal" id="imageModal" onclick="closeModal()">
+  <img id="modalImage">
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
