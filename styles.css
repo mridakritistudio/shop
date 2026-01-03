@@ -511,6 +511,28 @@ footer a:hover {
   }
 }
 
+@keyframes slideUp {
+  from {
+    transform: translateX(-50%) translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(-50%) translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateX(-50%) translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(-50%) translateY(20px);
+    opacity: 0;
+  }
+}
+
 @media (max-width: 600px) {
   header {
     padding: 32px 16px 16px;
