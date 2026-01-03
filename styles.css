@@ -147,8 +147,12 @@ h2 {
 
 .product-card img {
   width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  object-position: center top;
   border-radius: 10px;
   cursor: pointer;
+  display: block;
 }
 
 .product-label {
@@ -224,6 +228,13 @@ footer a {
 @media (max-width: 600px) {
   header h1 {
     font-size: 1.8rem;
+  }
+
+  .hero-text {
+    position: static;
+    margin-top: 16px;
+    background: var(--beige);
+    padding: 16px;
   }
 }
 
