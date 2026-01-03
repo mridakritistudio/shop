@@ -90,15 +90,25 @@ async function orderOnInstagram(productId) {
     
     if (isMobile) {
       /**
-       * FIX: Using 'user?username' is the most reliable deep link.
-       * This opens your profile directly inside the Instagram app.
+       * MOBILE: Use hidden iframe to trigger deep link without navigating away
+       * This prevents the page from being replaced, so when user returns,
+       * they see the original website, not Instagram login page
        */
-      window.location.href = 'instagram://user?username=mrida.kriti';
+      const iframe = document.createElement('iframe');
+      iframe.style.display = 'none';
+      iframe.src = 'instagram://user?username=mrida.kriti';
+      document.body.appendChild(iframe);
       
-      // Fallback: If the app isn't installed or the deep link fails
+      // Fallback: If the app isn't installed, open web link after delay
       setTimeout(() => {
+        // Remove iframe
+        if (iframe.parentNode) {
+          iframe.parentNode.removeChild(iframe);
+        }
+        
+        // Check if we're still on the page (app didn't open)
         if (!document.hidden) {
-          // Opens the specialized messaging short-link in the browser
+          // Open web link in same window (user can navigate back)
           window.location.href = 'https://ig.me/m/mrida.kriti';
         }
       }, 1500);
