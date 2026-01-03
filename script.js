@@ -90,22 +90,21 @@ async function orderOnInstagram(productId) {
     
     if (isMobile) {
       /**
-       * MOBILE DEEP LINKING
-       * 'instagram://direct_messaging' triggers the native app.
-       * We use window.location.href to avoid opening unnecessary blank tabs.
+       * FIX: Using 'user?username' is the most reliable deep link.
+       * This opens your profile directly inside the Instagram app.
        */
-      window.location.href = 'instagram://direct_messaging';
+      window.location.href = 'instagram://user?username=mrida.kriti';
       
-      // Fallback: If app isn't installed, open web link after 1.5 seconds
+      // Fallback: If the app isn't installed or the deep link fails
       setTimeout(() => {
-        // Only redirect if the user hasn't successfully switched to the app
         if (!document.hidden) {
+          // Opens the specialized messaging short-link in the browser
           window.location.href = 'https://ig.me/m/mrida.kriti';
         }
       }, 1500);
       
     } else {
-      // DESKTOP: Open in new tab using the smart link
+      // Desktop: opens the DM link in a new tab
       window.open('https://ig.me/m/mrida.kriti', '_blank');
     }
   }, 1500);
