@@ -74,8 +74,15 @@ async function orderOnInstagram(productId) {
     
     // Open Instagram DM after a delay to give user time to read notification
     setTimeout(() => {
-      const instagramDmUrl = 'https://ig.me/m/mrida.kriti';
-      window.open(instagramDmUrl, '_blank');
+      const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+      
+      if (isMobile) {
+        // On mobile, use window.location.href to open in Instagram app
+        window.location.href = 'https://ig.me/m/mrida.kriti';
+      } else {
+        // On desktop, open in new tab
+        window.open('https://ig.me/m/mrida.kriti', '_blank');
+      }
     }, 2000);
   } catch (err) {
     // Fallback: if clipboard API fails, try alternative method
@@ -96,15 +103,25 @@ async function orderOnInstagram(productId) {
       showCopyNotification('✅ Link copied. Paste it in DM', productCard);
       
       setTimeout(() => {
-        const instagramDmUrl = 'https://ig.me/m/mrida.kriti';
-        window.open(instagramDmUrl, '_blank');
+        const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+        
+        if (isMobile) {
+          window.location.href = 'https://ig.me/m/mrida.kriti';
+        } else {
+          window.open('https://ig.me/m/mrida.kriti', '_blank');
+        }
       }, 2000);
     } catch (fallbackErr) {
       document.body.removeChild(textarea);
       console.error('Fallback copy also failed:', fallbackErr);
       // Still open Instagram DM even if copy fails
-      const instagramDmUrl = 'https://ig.me/m/mrida.kriti';
-      window.open(instagramDmUrl, '_blank');
+      const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+      
+      if (isMobile) {
+        window.location.href = 'https://ig.me/m/mrida.kriti';
+      } else {
+        window.open('https://ig.me/m/mrida.kriti', '_blank');
+      }
     }
   }
 }
