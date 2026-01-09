@@ -80,8 +80,9 @@ async function loadProducts() {
 }
 
 // Load products when page loads
-document.addEventListener('DOMContentLoaded', () => {
-  loadProducts();
+document.addEventListener('DOMContentLoaded', async () => {
+  await loadProducts();
+  filterCategory('all'); // enforce correct initial state
   setupModalKeyboardNavigation();
 });
 
