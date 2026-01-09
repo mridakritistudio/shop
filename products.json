@@ -1,0 +1,53 @@
+{
+  "products": [
+    {
+      "id": "product-4inch-circle",
+      "sizeCategory": "S",
+      "designType": "Circle",
+      "dimensions": "4 inch × 4 inch",
+      "image": "images/small/small_1.png",
+      "images": [
+        "images/small/small_1.png",
+        "images/small/small_1_1.jpeg"
+      ],
+      "label": "4 inch Circle"
+    },
+    {
+      "id": "product-12inch-circle",
+      "sizeCategory": "M",
+      "designType": "Circle",
+      "dimensions": "12 inch × 12 inch",
+      "image": "images/medium/medium_1.png",
+      "images": [
+        "images/medium/medium_1.png",
+        "images/medium/medium_1_1.jpeg"
+      ],
+      "label": "12 inch Circle"
+    },
+    {
+      "id": "product-8x8-square",
+      "sizeCategory": "M",
+      "designType": "Square",
+      "dimensions": "8 inch × 8 inch",
+      "image": "images/medium/medium_2.png",
+      "images": [
+        "images/medium/medium_2.png",
+        "images/medium/medium_2_1.jpeg"
+      ],
+      "label": "8 x 8 inch Square"  
+    },
+    {
+      "id": "product-28x46-rectangle",
+      "sizeCategory": "L",
+      "designType": "Rectangle",
+      "dimensions": "28 inch × 46 inch",
+      "image": "images/large/large_1.png",
+      "images": [
+        "images/large/large_1.png",
+        "images/large/large_1_1.png"
+      ],
+      "label": "28 x 46 inch Rectangle"
+    }
+  ]
+}
+

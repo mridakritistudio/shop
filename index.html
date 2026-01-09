@@ -54,40 +54,8 @@
     <button onclick="filterCategory('large')">Large</button>
   </div>
 
-  <div class="products">
-
-    <div class="product-card small" id="product-4inch-circle">
-      <img src="images/small/small_1.png" onclick="openModal(this.src)">
-      <div class="product-label">4 inch Circle</div>
-      <button class="order-btn" onclick="orderOnInstagram('product-4inch-circle')">
-        Order via Instagram
-      </button>
-    </div>
-
-    <div class="product-card medium" id="product-12inch-circle">
-      <img src="images/medium/medium_1.png" onclick="openModal(this.src)">
-      <div class="product-label">12 inch Circle</div>
-      <button class="order-btn" onclick="orderOnInstagram('product-12inch-circle')">
-        Order via Instagram
-      </button>
-    </div>
-
-    <div class="product-card medium" id="product-8x8-square">
-      <img src="images/medium/medium_2.png" onclick="openModal(this.src)">
-      <div class="product-label">8 x 8 inch Square</div>
-      <button class="order-btn" onclick="orderOnInstagram('product-8x8-square')">
-        Order via Instagram
-      </button>
-    </div>
-
-    <div class="product-card large" id="product-28x46-rectangle">
-      <img src="images/large/large_1.png" onclick="openModal(this.src)">
-      <div class="product-label">28 x 46 inch Rectangle</div>
-      <button class="order-btn" onclick="orderOnInstagram('product-28x46-rectangle')">
-        Order via Instagram
-      </button>
-    </div>
-
+  <div class="products" id="products-container">
+    <!-- Products will be loaded dynamically from products.json -->
   </div>
 </section>
 
@@ -131,6 +99,9 @@
 
 <div class="modal" id="imageModal" onclick="closeModal()">
   <span class="modal-close" onclick="event.stopPropagation(); closeModal()">&times;</span>
+  <button class="modal-nav modal-prev" id="modalPrev" onclick="event.stopPropagation(); previousImage()">‹</button>
+  <button class="modal-nav modal-next" id="modalNext" onclick="event.stopPropagation(); nextImage()">›</button>
+  <div class="modal-image-counter" id="modalImageCounter"></div>
   <img id="modalImage" onclick="event.stopPropagation()">
 </div>
 
