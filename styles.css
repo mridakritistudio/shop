@@ -53,7 +53,10 @@ header {
   backdrop-filter: blur(10px);
   background: linear-gradient(180deg, rgba(243, 239, 233, 0.95), rgba(250, 248, 245, 0.95));
   box-shadow: 0 2px 20px var(--shadow-light);
-  transition: all 0.3s ease;
+  transition: padding 0.6s cubic-bezier(0.22, 1, 0.36, 1),
+            box-shadow 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: padding;
+
 }
 
 .brand-container {
@@ -718,5 +721,110 @@ footer a:hover {
   grid-template-columns: minmax(260px, 360px);
   justify-content: center;
 }
+
+/* =========================================================
+   HEADER SHRINK + REARRANGE (SAFE ADD-ON)
+========================================================= */
+
+/* Shrink state */
+header.scrolled {
+  padding: 10px 20px;
+}
+
+/* Rearrange header content into one row */
+header.scrolled .brand-container {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 0;
+  gap: 12px;
+}
+
+/* Smaller logo */
+header.scrolled .logo {
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
+}
+
+/* Smaller brand name */
+header.scrolled h1 {
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+}
+
+/* Hide tagline */
+header.scrolled .brand-text p {
+  opacity: 0;
+  max-height: 0;
+  margin: 0;
+  overflow: hidden;
+}
+
+/* Navigation moves to the right */
+header.scrolled nav {
+  margin-top: 0;
+}
+
+header.scrolled nav ul {
+  justify-content: flex-end;
+  gap: 18px;
+  flex-wrap: nowrap;
+  white-space: nowrap;
+}
+
+
+/* Make header a single line layout */
+header.scrolled {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* ===============================
+   FIX NAV WRAPPING IN SHRUNK HEADER
+================================ */
+
+
+/* Give nav a predictable width so it doesn't push to next line */
+header.scrolled nav {
+  max-width: 60%;
+}
+
+/* ===============================
+   SOFT HEADER SHRINK ANIMATION
+================================ */
+
+.brand-container {
+  transition: gap 0.6s cubic-bezier(0.22, 1, 0.36, 1),
+              margin-bottom 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.logo {
+  transition: width 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+              height 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+              border-radius 0.7s cubic-bezier(0.22, 1, 0.36, 1),
+              transform 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.brand-text h1 {
+  transition: font-size 0.6s cubic-bezier(0.22, 1, 0.36, 1),
+              letter-spacing 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.brand-text p {
+  transition: opacity 0.4s ease,
+              max-height 0.6s ease,
+              margin 0.6s ease;
+}
+
+nav {
+  transition: margin-top 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+nav ul {
+  transition: gap 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+
 
 
