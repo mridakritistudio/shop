@@ -43,7 +43,7 @@
       "dimensions": "12 inch × 12 inch",
       "image": "images/medium/medium_3.png",
       "images": [
-        "images/medium/medium_3.jpg",
+        "images/medium/medium_3.png",
         "images/medium/medium_3_1.jpeg"
       ],
       "label": "12 inch Circle"  
@@ -55,7 +55,7 @@
       "dimensions": "12 inch × 12 inch",
       "image": "images/medium/medium_4.png",
       "images": [
-        "images/medium/medium_4.jpg",
+        "images/medium/medium_4.png",
         "images/medium/medium_4_1.jpeg"
       ],
       "label": "12 inch Circle"  
