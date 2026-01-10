@@ -713,3 +713,10 @@ footer a:hover {
   }
 }
 
+/* Prevent single product from stretching full width */
+.products.single-product {
+  grid-template-columns: minmax(260px, 360px);
+  justify-content: center;
+}
+
+

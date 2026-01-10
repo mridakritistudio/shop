@@ -133,15 +133,24 @@ function filterCategory(category) {
   // 🔹 Hide thumbnails when "all" is selected
   toggleThumbnails(category !== 'all');
 
-  products.forEach(product => {
-    if (category === 'all') {
-      product.style.display = 'block';
-    } else if (product.classList.contains(category)) {
-      product.style.display = 'block';
-    } else {
-      product.style.display = 'none';
-    }
-  });
+  const container = document.getElementById('products-container');
+
+let visibleCount = 0;
+
+products.forEach(product => {
+  if (category === 'all') {
+    product.style.display = 'block';
+    visibleCount++;
+  } else if (product.classList.contains(category)) {
+    product.style.display = 'block';
+    visibleCount++;
+  } else {
+    product.style.display = 'none';
+  }
+});
+
+// Handle layout for single product
+container.classList.toggle('single-product', visibleCount === 1);
 }
 
 
