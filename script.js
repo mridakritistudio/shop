@@ -111,7 +111,7 @@ function filterCategory(category) {
     );
   });
 
-  toggleThumbnails(category !== 'all');
+  // toggleThumbnails(category !== 'all');
 
   let visible = 0;
 
