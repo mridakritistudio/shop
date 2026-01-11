@@ -199,13 +199,26 @@ function setupModalKeyboardNavigation() {
 
 async function orderOnInstagram(id) {
   const card = document.getElementById(id);
+  if (!card) return;
+
   const name = card.querySelector('.product-label').textContent;
   const link = `${location.origin}${location.pathname}#${id}`;
   const text = `Hi! I'm interested in ordering: ${name}\n\n${link}`;
 
-  await navigator.clipboard.writeText(text);
+  try {
+    await navigator.clipboard.writeText(text);
 
-  setTimeout(() => {
+    const toast = document.getElementById('copyToast');
+    toast.classList.add('show');
+
+    setTimeout(() => {
+      toast.classList.remove('show');
+    }, 1000);
+
+    setTimeout(() => {
+      window.open('https://ig.me/m/mrida.kriti', '_blank');
+    }, 1100);
+  } catch (err) {
     window.open('https://ig.me/m/mrida.kriti', '_blank');
-  }, 800);
+  }
 }
