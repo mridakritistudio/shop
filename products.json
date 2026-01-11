@@ -1,7 +1,7 @@
 {
   "products": [
     {
-      "id": "product-4inch-circle",
+      "id": "product-4inch-circle-1",
       "sizeCategory": "S",
       "designType": "Circle",
       "dimensions": "4 inch × 4 inch",
@@ -10,7 +10,55 @@
         "images/small/small_1.png",
         "images/small/small_1_1.jpeg"
       ],
-      "label": "4 inch Circle"
+      "label": "Set of 4 (4 inch Circle)"
+    },
+    {
+      "id": "product-8inch-square-2",
+      "sizeCategory": "S",
+      "designType": "Square",
+      "dimensions": "8 inch × 8 inch",
+      "image": "images/small/small_2.jpeg",
+      "images": [
+        "images/small/small_2.jpeg",
+        "images/small/small_2_1.jpeg"
+      ],
+      "label": "8 inch Square"
+    },
+    {
+      "id": "product-8inch-square-3",
+      "sizeCategory": "S",
+      "designType": "Square",
+      "dimensions": "8 inch × 8 inch",
+      "image": "images/small/small_3.jpeg",
+      "images": [
+        "images/small/small_3.jpeg",
+        "images/small/small_3_1.jpeg"
+      ],
+      "label": "8 inch Square"
+    },
+    {
+      "id": "product-8inch-square-4",
+      "sizeCategory": "S",
+      "designType": "Square",
+      "dimensions": "8 inch × 8 inch",
+      "image": "images/small/small_4.jpeg",
+      "images": [
+        "images/small/small_4.jpeg",
+        "images/small/small_4_1.jpeg"
+      ],
+      "label": "8 inch Square"
+    },
+    {
+      "id": "product-8inch-square-5",
+      "sizeCategory": "S",
+      "designType": "Square",
+      "dimensions": "8 inch × 8 inch",
+      "image": "images/small/small_5.jpeg",
+      "images": [
+        "images/small/small_5.jpeg",
+        "images/small/small_5_1.jpeg"
+      ],
+      "label": "8 inch Square"
     },
     {
       "id": "product-12inch-circle-1",
@@ -59,6 +107,18 @@
         "images/medium/medium_4_1.jpeg"
       ],
       "label": "12 inch Circle"  
+    },
+    {
+      "id": "product-16inch-square-5",
+      "sizeCategory": "M",
+      "designType": "Square",
+      "dimensions": "8 inch × 8 inch",
+      "image": "images/medium/medium_5.jpeg",
+      "images": [
+        "images/medium/medium_5.jpeg",
+        "images/medium/medium_5_1.jpeg"
+      ],
+      "label": "Set of 4 (8 inch Square)"  
     },
     {
       "id": "product-28x46-rectangle",

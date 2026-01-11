@@ -36,7 +36,7 @@ async function loadProducts() {
           : 'large';
 
       const description =
-        product.designType.toLowerCase() === 'circle'
+        product.designType.toLowerCase() === 'circle' || product.designType.toLowerCase() === 'square'
           ? `${product.sizeCategory}, ${product.designType} ${product.dimensions.split('×')[0].trim()}`
           : `${product.sizeCategory}, ${product.designType}, ${product.dimensions}`;
 
