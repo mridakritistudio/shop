@@ -109,28 +109,16 @@
       "label": "12 inch Circle"  
     },
     {
-      "id": "product-16inch-square-5",
-      "sizeCategory": "M",
-      "designType": "Square",
-      "dimensions": "8 inch × 8 inch",
-      "image": "images/medium/medium_5.jpeg",
-      "images": [
-        "images/medium/medium_5.jpeg",
-        "images/medium/medium_5_1.jpeg"
-      ],
-      "label": "Set of 4 (8 inch Square)"  
-    },
-    {
-      "id": "product-10inch-circle-6",
+      "id": "product-16inch-circle-5",
       "sizeCategory": "M",
       "designType": "Circle",
-      "dimensions": "10 inch × 10 inch",
-      "image": "images/medium/medium_6.jpeg",
+      "dimensions": "16 inch × 16 inch",
+      "image": "images/medium/medium_11.jpeg",
       "images": [
-        "images/medium/medium_6.jpeg",
-        "images/medium/medium_6_1.jpeg"
+        "images/medium/medium_11.jpeg",
+        "images/medium/medium_11_1.jpeg"
       ],
-      "label": "Set of 5 (10 inch Circle)"  
+      "label": "16 x 16 inch Circle"  
     },
     {
       "id": "product-15inch-rectangle-7",
@@ -169,6 +157,30 @@
       "label": "15 x 10 inch Rectangle"  
     },
     {
+      "id": "product-16inch-square-5",
+      "sizeCategory": "M",
+      "designType": "Square",
+      "dimensions": "8 inch × 8 inch",
+      "image": "images/medium/medium_5.jpeg",
+      "images": [
+        "images/medium/medium_5.jpeg",
+        "images/medium/medium_5_1.jpeg"
+      ],
+      "label": "Set of 4 (8 inch Square)"  
+    },
+    {
+      "id": "product-10inch-circle-6",
+      "sizeCategory": "M",
+      "designType": "Circle",
+      "dimensions": "10 inch × 10 inch",
+      "image": "images/medium/medium_6.jpeg",
+      "images": [
+        "images/medium/medium_6.jpeg",
+        "images/medium/medium_6_1.jpeg"
+      ],
+      "label": "Set of 5 (10 inch Circle)"  
+    },
+    {
       "id": "product-set-of-7-10",
       "sizeCategory": "M",
       "designType": "Square",
@@ -179,18 +191,6 @@
         "images/medium/medium_10_1.jpeg"
       ],
       "label": "Set of 7 (6 inch Square)"  
-    },
-    {
-      "id": "product-16inch-circle-11",
-      "sizeCategory": "M",
-      "designType": "Circle",
-      "dimensions": "16 inch × 16 inch",
-      "image": "images/medium/medium_11.jpeg",
-      "images": [
-        "images/medium/medium_11.jpeg",
-        "images/medium/medium_11_1.jpeg"
-      ],
-      "label": "16 x 16 inch Circle"  
     },
     {
       "id": "product-28x46-rectangle",
