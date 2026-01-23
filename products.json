@@ -169,6 +169,30 @@
       "label": "15 x 10 inch Rectangle"  
     },
     {
+      "id": "product-set-of-7-10",
+      "sizeCategory": "M",
+      "designType": "Square",
+      "dimensions": "6 inch × 6 inch",
+      "image": "images/medium/medium_10.jpeg",
+      "images": [
+        "images/medium/medium_10.jpeg",
+        "images/medium/medium_10_1.jpeg"
+      ],
+      "label": "Set of 7 (6 inch Square)"  
+    },
+    {
+      "id": "product-16inch-circle-11",
+      "sizeCategory": "M",
+      "designType": "Circle",
+      "dimensions": "16 inch × 16 inch",
+      "image": "images/medium/medium_11.jpeg",
+      "images": [
+        "images/medium/medium_11.jpeg",
+        "images/medium/medium_11_1.jpeg"
+      ],
+      "label": "16 x 16 inch Circle"  
+    },
+    {
       "id": "product-28x46-rectangle",
       "sizeCategory": "L",
       "designType": "Rectangle",
