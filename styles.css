@@ -424,6 +424,21 @@ h2::after {
   font-style: italic;
 }
 
+.product-price {
+  margin: 0 0 14px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  color: var(--dark-text);
+}
+
+.product-price .shipping-text {
+  font-size: 0.8em;
+  font-weight: 400;
+  font-style: italic;
+  color: rgba(42, 33, 28, 0.7);
+}
+
 .order-btn {
   padding: 10px 24px;
   border-radius: 25px;

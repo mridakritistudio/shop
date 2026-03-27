@@ -3,6 +3,7 @@
     {
       "id": "product-8inch-square-2",
       "sizeCategory": "S",
+      "price": "₹529",
       "designType": "Square",
       "dimensions": "8 inch × 8 inch",
       "image": "images/small/small_2.jpeg",
@@ -10,11 +11,12 @@
         "images/small/small_2.jpeg",
         "images/small/small_2_1.jpeg"
       ],
-      "label": "8 inch Square"
+      "label": "8 inch square"
     },
     {
       "id": "product-8inch-square-3",
       "sizeCategory": "S",
+      "price": "₹529",
       "designType": "Square",
       "dimensions": "8 inch × 8 inch",
       "image": "images/small/small_3.jpeg",
@@ -22,11 +24,12 @@
         "images/small/small_3.jpeg",
         "images/small/small_3_1.jpeg"
       ],
-      "label": "8 inch Square"
+      "label": "8 inch square"
     },
     {
       "id": "product-8inch-square-4",
       "sizeCategory": "S",
+      "price": "₹529",
       "designType": "Square",
       "dimensions": "8 inch × 8 inch",
       "image": "images/small/small_4.jpeg",
@@ -34,11 +37,12 @@
         "images/small/small_4.jpeg",
         "images/small/small_4_1.jpeg"
       ],
-      "label": "8 inch Square"
+      "label": "8 inch square"
     },
     {
       "id": "product-8inch-square-5",
       "sizeCategory": "S",
+      "price": "₹529",
       "designType": "Square",
       "dimensions": "8 inch × 8 inch",
       "image": "images/small/small_5.jpeg",
@@ -46,11 +50,12 @@
         "images/small/small_5.jpeg",
         "images/small/small_5_1.jpeg"
       ],
-      "label": "8 inch Square"
+      "label": "8 inch square"
     },
     {
       "id": "product-4inch-circle-6",
       "sizeCategory": "S",
+      "price": "₹400",
       "designType": "Circle",
       "dimensions": "4 inch × 4 inch",
       "image": "images/small/small_6.jpeg",
@@ -58,11 +63,12 @@
         "images/small/small_6.jpeg",
         "images/small/small_6_1.jpeg"
       ],
-      "label": "Set of 4 (4 inch Circle)"
+      "label": "Set of 4 (4 inch circle)"
     },
     {
       "id": "product-12inch-circle-1",
       "sizeCategory": "M",
+      "price": "₹900",
       "designType": "Circle",
       "dimensions": "12 inch × 12 inch",
       "image": "images/medium/medium_1.jpeg",
@@ -70,11 +76,12 @@
         "images/medium/medium_1.jpeg",
         "images/medium/medium_1_1.jpeg"
       ],
-      "label": "12 inch Circle"
+      "label": "12 inch circle"
     },
     {
       "id": "product-12inch-circle-2",
       "sizeCategory": "M",
+      "price": "₹900",
       "designType": "Circle",
       "dimensions": "12 inch × 12 inch",
       "image": "images/medium/medium_2.jpeg",
@@ -82,11 +89,12 @@
         "images/medium/medium_2.jpeg",
         "images/medium/medium_2_1.jpeg"
       ],
-      "label": "12 inch Circle"  
+      "label": "12 inch circle"  
     },
     {
       "id": "product-12inch-circle-3",
       "sizeCategory": "M",
+      "price": "₹900",
       "designType": "Circle",
       "dimensions": "12 inch × 12 inch",
       "image": "images/medium/medium_3.jpeg",
@@ -94,11 +102,12 @@
         "images/medium/medium_3.jpeg",
         "images/medium/medium_3_1.jpeg"
       ],
-      "label": "12 inch Circle"  
+      "label": "12 inch circle"  
     },
     {
       "id": "product-12inch-circle-4",
       "sizeCategory": "M",
+      "price": "₹900",
       "designType": "Circle",
       "dimensions": "12 inch × 12 inch",
       "image": "images/medium/medium_4.jpeg",
@@ -106,11 +115,12 @@
         "images/medium/medium_4.jpeg",
         "images/medium/medium_4_1.jpeg"
       ],
-      "label": "12 inch Circle"  
+      "label": "12 inch circle"  
     },
     {
       "id": "product-16inch-circle-5",
       "sizeCategory": "M",
+      "price": "₹1550",
       "designType": "Circle",
       "dimensions": "16 inch × 16 inch",
       "image": "images/medium/medium_11.jpeg",
@@ -118,11 +128,12 @@
         "images/medium/medium_11.jpeg",
         "images/medium/medium_11_1.jpeg"
       ],
-      "label": "16 x 16 inch Circle"  
+      "label": "16 x 16 inch circle"  
     },
     {
       "id": "product-15inch-rectangle-7",
       "sizeCategory": "M",
+      "price": "₹1500",
       "designType": "Rectangle",
       "dimensions": "15 inch × 10 inch",
       "image": "images/medium/medium_7.jpeg",
@@ -130,11 +141,12 @@
         "images/medium/medium_7.jpeg",
         "images/medium/medium_7_1.jpeg"
       ],
-      "label": "15 x 10 inch Rectangle"  
+      "label": "15 x 10 inch rectangle"  
     },
     {
       "id": "product-15inch-rectangle-8",
       "sizeCategory": "M",
+      "price": "₹1500",
       "designType": "Rectangle",
       "dimensions": "15 inch × 10 inch",
       "image": "images/medium/medium_8.jpeg",
@@ -142,11 +154,12 @@
         "images/medium/medium_8.jpeg",
         "images/medium/medium_8_1.jpeg"
       ],
-      "label": "15 x 10 inch Rectangle"  
+      "label": "15 x 10 inch rectangle"  
     },
     {
       "id": "product-15inch-rectangle-9",
       "sizeCategory": "M",
+      "price": "₹1500",
       "designType": "Rectangle",
       "dimensions": "15 inch × 10 inch",
       "image": "images/medium/medium_9.jpeg",
@@ -154,11 +167,12 @@
         "images/medium/medium_9.jpeg",
         "images/medium/medium_9_1.jpeg"
       ],
-      "label": "15 x 10 inch Rectangle"  
+      "label": "15 x 10 inch rectangle"  
     },
     {
       "id": "product-16inch-square-5",
       "sizeCategory": "M",
+      "price": "₹1500",
       "designType": "Square",
       "dimensions": "8 inch × 8 inch",
       "image": "images/medium/medium_5.jpeg",
@@ -166,23 +180,25 @@
         "images/medium/medium_5.jpeg",
         "images/medium/medium_5_1.jpeg"
       ],
-      "label": "Set of 4 (8 inch Square)"  
+      "label": "Set of 4 (8 inch square)"  
     },
     {
-      "id": "product-10inch-circle-6",
+      "id": "product-8inch-circle-6",
       "sizeCategory": "M",
+      "price": "₹2000",
       "designType": "Circle",
-      "dimensions": "10 inch × 10 inch",
+      "dimensions": "8 inch × 8 inch",
       "image": "images/medium/medium_6.jpeg",
       "images": [
         "images/medium/medium_6.jpeg",
         "images/medium/medium_6_1.jpeg"
       ],
-      "label": "Set of 5 (10 inch Circle)"  
+      "label": "Set of 5 (8 inch circle)"  
     },
     {
       "id": "product-set-of-7-10",
       "sizeCategory": "M",
+      "price": "₹2500",
       "designType": "Square",
       "dimensions": "6 inch × 6 inch",
       "image": "images/medium/medium_10.jpeg",
@@ -190,11 +206,12 @@
         "images/medium/medium_10.jpeg",
         "images/medium/medium_10_1.jpeg"
       ],
-      "label": "Set of 7 (6 inch Square)"  
+      "label": "Set of 7 (6 inch square)"  
     },
     {
       "id": "product-28x46-rectangle",
       "sizeCategory": "L",
+      "price": "₹11000",
       "designType": "Rectangle",
       "dimensions": "28 inch × 46 inch",
       "image": "images/large/large_1.jpeg",
@@ -202,7 +219,7 @@
         "images/large/large_1.jpeg",
         "images/large/large_1_1.jpeg"
       ],
-      "label": "28 x 46 inch Rectangle"
+      "label": "28 x 46 inch rectangle"
     }
   ]
 }

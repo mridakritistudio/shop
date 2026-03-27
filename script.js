@@ -78,7 +78,7 @@ async function loadProducts() {
         </div>
 
         <div class="product-label">${product.label}</div>
-        <div class="product-description">${description}</div>
+        <div class="product-price">${product.price} <span class="shipping-text">+ shipping</span></div>
         <button class="order-btn" onclick="orderOnInstagram('${product.id}')">
           Order via Instagram
         </button>
