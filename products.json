@@ -10,6 +10,7 @@
       "images": [
         "images/small/small_2.jpeg",
         "images/small/small_2_1.jpeg",
+        "images/small/small_3_1.jpeg",
         "images/small/small_5_1.jpeg"
       ],
       "label": "8 inch square"
@@ -18,7 +19,7 @@
     {
       "id": "product-4inch-circle-6",
       "sizeCategory": "S",
-      "price": "₹400",
+      "price": "₹500",
       "designType": "Circle",
       "dimensions": "4 inch × 4 inch",
       "image": "images/small/small_6.jpeg",
@@ -32,7 +33,7 @@
     {
       "id": "product-4inch-circle-7",
       "sizeCategory": "S",
-      "price": "500",
+      "price": "600",
       "designType": "Circle",
       "dimensions": "4 inch × 4 inch",
       "image": "images/small/small_7.jpeg",
@@ -45,7 +46,7 @@
     {
       "id": "product-3inch-circle-8",
       "sizeCategory": "S",
-      "price": "₹360",
+      "price": "₹400",
       "designType": "Circle",
       "dimensions": "3 inch × 3 inch",
       "image": "images/small/small_8.jpeg",
@@ -58,7 +59,7 @@
     {
       "id": "product-4inch-square-9",
       "sizeCategory": "S",
-      "price": "₹400",
+      "price": "₹500",
       "designType": "Square",
       "dimensions": "4 inch × 4 inch",
       "image": "images/small/small_9.jpeg",
@@ -71,7 +72,7 @@
     {
       "id": "product-6inch-circle-10",
       "sizeCategory": "S",
-      "price": "₹400",
+      "price": "₹500",
       "designType": "Circle",
       "dimensions": "6 inch × 6 inch",
       "image": "images/small/small_10.jpeg",
@@ -137,7 +138,7 @@
     {
       "id": "product-14inch-circle-15",
       "sizeCategory": "M",
-      "price": "₹1000",
+      "price": "₹1100",
       "designType": "Circle",
       "dimensions": "14 inch × 14 inch",
       "image": "images/medium/medium_15.jpeg",
@@ -242,7 +243,7 @@
     {
       "id": "product-16inch-square-5",
       "sizeCategory": "M",
-      "price": "₹1500",
+      "price": "₹1800",
       "designType": "Square",
       "dimensions": "8 inch × 8 inch",
       "image": "images/medium/medium_5.jpeg",
@@ -255,7 +256,7 @@
     {
       "id": "product-8inch-circle-6",
       "sizeCategory": "M",
-      "price": "₹2000",
+      "price": "₹2200",
       "designType": "Circle",
       "dimensions": "8 inch × 8 inch",
       "image": "images/medium/medium_6.jpeg",
