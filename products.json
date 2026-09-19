@@ -122,19 +122,6 @@
       "label": "12 inch circle"  
     },
     {
-      "id": "product-12inch-circle-4",
-      "sizeCategory": "M",
-      "price": "₹900",
-      "designType": "Circle",
-      "dimensions": "12 inch × 12 inch",
-      "image": "images/medium/medium_4.jpeg",
-      "images": [
-        "images/medium/medium_4.jpeg",
-        "images/medium/medium_4_1.jpeg"
-      ],
-      "label": "12 inch circle"  
-    },
-    {
       "id": "product-16inch-circle-5",
       "sizeCategory": "M",
       "price": "₹1550",
