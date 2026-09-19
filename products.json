@@ -8,8 +8,8 @@
       "dimensions": "8 inch × 8 inch",
       "image": "images/small/small_2.jpeg",
       "images": [
+        "images/small/small_2.jpeg",
         "images/small/small_2_1.jpeg",
-        "images/small/small_3_1.jpeg",
         "images/small/small_5_1.jpeg"
       ],
       "label": "8 inch square"
@@ -23,6 +23,7 @@
       "dimensions": "4 inch × 4 inch",
       "image": "images/small/small_6.jpeg",
       "images": [
+        "images/small/small_6.jpeg",
         "images/small/small_6_2.jpeg",
         "images/small/small_6_3.jpeg"
       ],
@@ -114,6 +115,7 @@
       "dimensions": "12 inch × 12 inch",
       "image": "images/medium/medium_3.jpeg",
       "images": [
+        "images/medium/medium_3.jpeg",
         "images/medium/medium_3_1.jpeg",
         "images/medium/medium_4_1.jpeg"
       ],
