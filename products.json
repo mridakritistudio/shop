@@ -105,6 +105,19 @@
       "label": "Set of 4 (4 inch square)"
     },
     {
+      "id": "product-6inch-circle-10",
+      "sizeCategory": "S",
+      "price": "₹400",
+      "designType": "Circle",
+      "dimensions": "6 inch × 6 inch",
+      "image": "images/small/small_10.jpeg",
+      "images": [
+        "images/small/small_10.jpeg",
+        "images/small/small_10_1.jpeg"
+      ],
+      "label": "6 inch circle"  
+    },
+    {
       "id": "product-12inch-circle-1",
       "sizeCategory": "M",
       "price": "₹900",
@@ -170,6 +183,45 @@
       "label": "16 x 16 inch circle"  
     },
     {
+      "id": "product-14inch-circle-15",
+      "sizeCategory": "M",
+      "price": "₹1000",
+      "designType": "Circle",
+      "dimensions": "14 inch × 14 inch",
+      "image": "images/medium/medium_15.jpeg",
+      "images": [
+        "images/medium/medium_15.jpeg",
+        "images/medium/medium_15.jpeg"
+      ],
+      "label": "14 x 14 inch circle"  
+    },
+    {
+      "id": "product-14inch-circle-16",
+      "sizeCategory": "M",
+      "price": "₹1500",
+      "designType": "Circle",
+      "dimensions": "14 inch × 14 inch",
+      "image": "images/medium/medium_16.jpeg",
+      "images": [
+        "images/medium/medium_16.jpeg",
+        "images/medium/medium_16.jpeg"
+      ],
+      "label": "14 x 14 inch circle"  
+    },
+    {
+      "id": "product-14inch-rectangle-7",
+      "sizeCategory": "M",
+      "price": "₹1200",
+      "designType": "Rectangle",
+      "dimensions": "14 inch × 11 inch",
+      "image": "images/medium/medium_14.jpeg",
+      "images": [
+        "images/medium/medium_14.jpeg",
+        "images/medium/medium_14_1.jpeg"
+      ],
+      "label": "14 x 11 inch rectangle"  
+    },
+    {
       "id": "product-15inch-rectangle-7",
       "sizeCategory": "M",
       "price": "₹1500",
@@ -207,6 +259,33 @@
         "images/medium/medium_9_1.jpeg"
       ],
       "label": "15 x 10 inch rectangle"  
+    },
+    {
+      "id": "product-20inch-rectangle-5",
+      "sizeCategory": "M",
+      "price": "₹4500",
+      "designType": "Rectangle",
+      "dimensions": "20 inch × 16 inch",
+      "image": "images/medium/medium_13.jpeg",
+      "images": [
+        "images/medium/medium_13.jpeg",
+        "images/medium/medium_13_1.jpeg",
+        "images/medium/medium_13_2.jpeg"
+      ],
+      "label": "Set of 2 (20 inch rectangle)"  
+    },
+    {
+      "id": "product-12inch-rectangle-12",
+      "sizeCategory": "M",
+      "price": "₹1800",
+      "designType": "Rectangle",
+      "dimensions": "12 inch × 6 inch",
+      "image": "images/medium/medium_12.jpeg",
+      "images": [
+        "images/medium/medium_12.jpeg",
+        "images/medium/medium_12_1.jpeg"
+      ],
+      "label": "Set of 3 (12 inch rectangle)"  
     },
     {
       "id": "product-16inch-square-5",
